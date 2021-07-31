@@ -193,8 +193,6 @@ class _MyAppState extends State<MyApp> {
       }
 
     });
-
-
     if(Platform.isIOS) {
       await FirebaseMessaging.instance
           .setForegroundNotificationPresentationOptions(
